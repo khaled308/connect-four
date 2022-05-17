@@ -147,7 +147,6 @@ class Game{
             alert(`player ${finished} win`)
             this.grid = JSON.parse(JSON.stringify(this.#initial))
             resetGame()
-            console.log(this.grid)
         }
         return finished
     }
